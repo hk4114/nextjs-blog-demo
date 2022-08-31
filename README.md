@@ -1,5 +1,13 @@
 # nextjs
 
+remark-prism：代码高亮插件
+date-fns：处理日期
+gray-matter：获取元数据
+next-mdx-remote：用于解析和渲染markdown内容
+remark-external-links：对markdown内的链接添加rel和target，使其能够在新页面打开
+
+
+
 ```sh
 npx create-next-app@latest --typescript ailjx-blog
 pnpm add -D tailwindcss postcss autoprefixer

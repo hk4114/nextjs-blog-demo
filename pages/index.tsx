@@ -27,12 +27,11 @@ const Home: NextPage<Props> = ({ allPostsData }) => {
         </Head>
 
         <section className="text-xl leading-normal text-center">
-          <p>你好，我是 kane</p>
-          <p>一个又菜又爱玩的前端小白，欢迎来到我的博客！</p>
+          <p>kane</p>
         </section>
 
         <section className="text-xl leading-normal pt-4">
-          <h2 className=" text-2xl my-4 font-bold">Blog</h2>
+          <h2 className=" text-2xl my-4 font-bold">Blogs</h2>
           <ul>
             {allPostsData.map(({ id, date, title }) => (
               <li key={id} className="mb-5">
