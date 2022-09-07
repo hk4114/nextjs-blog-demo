@@ -52,20 +52,6 @@ export function getSortedPostsData() {
 
 // 获取格式化后的所有文章id（文件名）
 export function getAllPostIds() {
-  // 这是返回的格式:
-  // [
-  //   {
-  //     params: {
-  //       id: '......'
-  //     }
-  //   },
-  //   {
-  //     params: {
-  //       id: '......'
-  //     }
-  //   }
-  // ]
-
   return fileNames.map((fileName) => {
     return {
       params: {

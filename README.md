@@ -16,10 +16,10 @@ yarn add @types/remark-prism --D
 
 ```js
 // tailwind.config.js
- content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
-    "./styles/**/*.css",
+content: [
+  "./pages/**/*.{js,ts,jsx,tsx}",
+  "./components/**/*.{js,ts,jsx,tsx}",
+  "./styles/**/*.css",
 ],
 
 // 在pages文件夹下的_app.tsx文件的第一行添加：
